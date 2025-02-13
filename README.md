@@ -1,6 +1,7 @@
 # Azure Earthquake Data Engineering Cloud Project
 
-![alt text](_Azure_DateBricks_api_eTe_project.png)
+![_Azure_DateBricks_api_eTe_project](https://github.com/user-attachments/assets/aa735d7e-3fb0-44a6-97db-4d8fc14d9672)
+
 
 ## Project Overview
 
@@ -13,7 +14,8 @@ The data is extracted from the following API:
 
 This API returns detailed data about earthquakes that occurred within the specified date range. Using Azure Data Factory (ADF), the data is dynamically extracted by passing parameters for the start and end dates.
 
-![alt text](eartqu_api_adf_pipeline.png)
+![eartqu_api_adf_pipeline](https://github.com/user-attachments/assets/12054e60-f03e-4b4c-ad42-8794d02448ce)
+
 
 ## Data Ingestion
 
