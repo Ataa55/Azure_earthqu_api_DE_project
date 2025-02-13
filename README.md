@@ -1,8 +1,5 @@
 # Azure Earthquake Data Engineering Cloud Project
-
 ![_Azure_DateBricks_api_eTe_project](https://github.com/user-attachments/assets/aa735d7e-3fb0-44a6-97db-4d8fc14d9672)
-
-
 ## Project Overview
 
 This project involves extracting earthquake data from the USGS Earthquake API, landing it within Azure Data Lake Storage Gen2, processing it using Azure Data Factory, and Databricks. The processed data is then made available for analytics using Azure Synapse Analytics.
