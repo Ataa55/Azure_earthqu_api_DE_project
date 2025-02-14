@@ -1,4 +1,4 @@
-# Azure Earthquake Data Engineering Cloud Project
+# Azure Earthquake_Api Data Engineering Cloud Project
 ![_Azure_DateBricks_api_eTe_project](https://github.com/user-attachments/assets/aa735d7e-3fb0-44a6-97db-4d8fc14d9672)
 ## Project Overview
 
