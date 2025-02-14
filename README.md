@@ -7,7 +7,7 @@ This project involves extracting earthquake data from the USGS Earthquake API, l
 ## Data Extraction
 
 The data is extracted from the following API:
-[USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2014-01-01&endtime=2014-01-02)
+[USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/event/1)
 
 This API returns detailed data about earthquakes that occurred within the specified date range. Using Azure Data Factory (ADF), the data is dynamically extracted by passing parameters for the start and end dates.
 
