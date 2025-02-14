@@ -11,12 +11,11 @@ The data is extracted from the following API:
 
 This API returns detailed data about earthquakes that occurred within the specified date range. Using Azure Data Factory (ADF), the data is dynamically extracted by passing parameters for the start and end dates.
 
-![eartqu_api_adf_pipeline](https://github.com/user-attachments/assets/12054e60-f03e-4b4c-ad42-8794d02448ce)
-
-
 ## Data Ingestion
 
 Azure Data Factory writes the extracted data to the Azure Data Lake Storage Gen2 (ADLS Gen2) bronze bucket in JSON format. The bronze layer holds the raw data in JSON format. Before loading the data to the bronze layer, the bucket is cleared to ensure only fresh new data is present.
+
+![eartqu_api_adf_pipeline](https://github.com/user-attachments/assets/12054e60-f03e-4b4c-ad42-8794d02448ce)
 
 ## Data Processing
 
@@ -31,6 +30,9 @@ The `Silver_to_gold` notebook reads the silver data, adds columns to enrich the 
 ## Data Analytics
 
 The data in the gold layer is ready for analytics. Azure Synapse Analytics is used to query the data in the gold layer, as it is connected to the ADLS Gen2 service.
+
+![Screenshot from 2025-02-14 12-03-18](https://github.com/user-attachments/assets/0d0b0553-5dbd-403e-ab89-b378dca2da88)
+
 
 ## Loading Approach
 
