@@ -46,6 +46,3 @@ However, as a precaution, the `on_failure` notebook removes all data with the ma
 ## Automation
 
 The entire pipeline is automated using triggers in Azure Data Factory. These triggers ensure that the data extraction, ingestion, and processing steps are executed at scheduled intervals, providing a seamless and efficient workflow.
----
-
-This documentation provides an overview of the project's data extraction, ingestion, processing, and analytics workflow. It also outlines the approach for handling pipeline failures to ensure data integrity.
