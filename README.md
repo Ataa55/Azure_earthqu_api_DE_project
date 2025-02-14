@@ -43,7 +43,7 @@ If the pipeline fails while loading data to the gold layer, Delta tables ensure 
 However, as a precaution, the `on_failure` notebook removes all data with the maximum creation_date, as this represents the last entered data before the failure. This step prevents duplicates before rerunning the pipeline.
 
 
-# Automation
+## Automation
 
 The entire pipeline is automated using triggers in Azure Data Factory. These triggers ensure that the data extraction, ingestion, and processing steps are executed at scheduled intervals, providing a seamless and efficient workflow.
 ---
