@@ -42,7 +42,7 @@ The loading approach for the gold layer is incremental, as only new data for the
 
 If the pipeline fails while loading data to the gold layer, Delta tables ensure ACID compliance, so there is no need to worry about partial data writes. Delta Lake supports atomicity, meaning all or none of the data is written. If the pipeline fails, no data is written, and no commit is made to the Delta log.
 
-However, as a precaution, the `on_failure` notebook removes all data with the maximum creation_date, as this represents the last entered data before the failure. This step prevents duplicates before rerunning the pipeline.
+However, as a precaution, the `on_failure` notebook removes all data with the maximum creation_date, as this represents the last entered data before the failure. This step prevents duplicates before rerunning the pipeline again.
 
 
 ## Automation
